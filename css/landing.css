@@ -39,24 +39,33 @@
 .menu-list li a{
     text-decoration: none;
     color: black;
+    font-size: large;
+    font-weight: 500;
 }
 .menu-list li a:hover{
     color: var(--dark-blue);
     border-bottom: 1px solid var(--red);
-    transition: all .5s ease-in-out;
+    transition: all 200ms linear;
 }
 
 
 .log-in-button{
-    padding: .5rem .7rem;
+    padding: .5rem .8rem;
     border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    border: none;
     cursor: pointer;
+    font-size: large;
 }
 .log-in-button:hover{
-    background-color: var(--light-blue);
-    color: var(--red);
-    border-color: var(--red);
-    transition: all .3s ease-in-out;
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+    /* color: var(--red);
+    border-color: var(--red); */
+    box-shadow: 0 .3rem .8rem 0 rgba(232, 69, 44, 0.18);
+    transition: all .3s linear;
 }
 
 /* ----------------------CONTENT---------------------------------------------------- */
@@ -109,7 +118,7 @@
         margin-left: 1%;
     }
     .log-in-button{
-        padding: .3rem;
+        padding: .3rem .5rem;
     }
     
     
