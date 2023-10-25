@@ -10,3 +10,15 @@
     box-sizing: border-box;
     font-family: Inter, sans-serif;
 }
+
+.title{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+.explanation{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
