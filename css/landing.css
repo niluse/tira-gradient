@@ -57,6 +57,7 @@
     color: var(--dark-blue);
     border: none;
     cursor: pointer;
+    box-shadow: 0 .3rem .8rem 0 rgba(166, 210, 242, 0.473);
     font-size: large;
 }
 .log-in-button:hover{
@@ -64,6 +65,7 @@
     color: var(--light-blue);
     /* color: var(--red);
     border-color: var(--red); */
+    font-weight: 500;
     box-shadow: 0 .3rem .8rem 0 rgba(232, 69, 44, 0.18);
     transition: all .3s linear;
 }
@@ -85,14 +87,20 @@
     
     .navbar-toggler{
         display: flex;
-        padding: .3rem;
+        padding: .3rem .5rem;
         border-radius: 5px;
         cursor: pointer;
+        background-color: var(--light-blue);
+        color: var(--dark-blue);
+        border: none;
+        box-shadow: 0 .3rem .8rem 0 rgba(166, 210, 242, 0.473);
+        font-size: large;
     }
     .navbar-toggler:hover{
-        background-color: var(--light-blue);
-        color: var(--red);
-        border-color: var(--red);
+        background-color: var(--dark-blue);
+        color: var(--light-blue);
+        box-shadow: 0 .3rem .8rem 0 rgba(232, 69, 44, 0.18);
+        
         transition: all .3s ease-in-out;
     }
     .menu-list li a{
