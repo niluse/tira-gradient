@@ -1,4 +1,8 @@
-
+:root{
+    --dark-blue:#5A82B5;
+    --light-blue:#A6D2F2;
+    --red:#E8452C;
+}
 
 *{
     padding: 0;
