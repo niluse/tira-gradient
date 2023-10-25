@@ -1,0 +1,92 @@
+
+
+.landing{
+    height: 100vh;
+}
+/* ----------------NAVBAR---------------------------------------------------------- */
+.navbar{
+    height: 8vh;
+    /* display: flex; */
+    border: 1px solid red;
+}
+.inner-navbar{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid yellow;
+}
+.logo-container{
+    width: 5%;
+    display: flex;
+}
+.logo-container h1{
+    font-family: Poppins, sans-serif;
+}
+
+.navbar-toggler{
+    display: none;
+}
+.menu{
+    width: 50%;
+    margin: auto;
+}
+.menu .menu-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.menu-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.log-in-button{
+    padding: .5rem;
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    
+    .navbar-toggler{
+        display: flex;
+        padding: .3rem;
+    }
+    .menu-list li a{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .menu .menu-list{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    .menu-list li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .log-in{
+        width: 10%;
+        margin-left: 1%;
+    }
+    .log-in-button{
+        padding: .3rem;
+    }
+    
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .log-in{
+        width: 30%;
+        margin-left: 1%;
+    }
+}
